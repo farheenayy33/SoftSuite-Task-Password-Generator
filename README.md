@@ -62,7 +62,7 @@ npm install
 ### 4. Start the Backend
 
 ```bash
-npm start
+node server.js 
 ```
 
 ### 5. Start the Frontend
@@ -85,13 +85,14 @@ Open the local URL provided by Vite in your browser.
 
 ## 👩‍💻 Author
 
-### **Farheen**
 
-**React · Node.js · Express.js**
+## **Farheen**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Farheenayy33-181717?style=for-the-badge\&logo=github)](https://github.com/farheenayy33)
+**Full-Stack Developer**
 
----
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/farheenayy33)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/farheen-laraib-943ba9404/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://portfolio-ruddy-five-80.vercel.app/)
 
 ⭐ **If you like this project, consider giving it a star!**
 
