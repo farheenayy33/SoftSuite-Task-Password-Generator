@@ -1,6 +1,7 @@
 const express = require("express");
 const path =require("path")
 const generatePassword = require("./password");
+const PORT = process.env.PORT || 8000;
 const app = express();
 app.use(express.json())
 app.use(express.static(path.join(__dirname,'../dist')))
@@ -19,6 +20,6 @@ app.post("/password", (req, res) => {
 );
 
 });
-app.listen(8000, () => {
-  console.log("Server is running on port 8000 ");
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
