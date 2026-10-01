@@ -8,7 +8,10 @@ async function submitHandler(e){
 console.log('submit handler called ',length)
 e.preventDefault();
  length
-const response = await axios.post("http://localhost:8000/password", { length });
+const response = await axios.post(
+  "https://soft-suite-task-password-generator.vercel.app/password",
+  { length },
+);
 console.log(response)
 setPassword(response.data.password)
 setlength("")
